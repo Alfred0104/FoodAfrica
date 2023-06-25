@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">LoginPageUi</string>
+    <string name="log_in">log_in</string>
+    <string name="afrifood">AFRIFOOD</string>
+    <string name="AFRIFOOD">AFRIFOOD</string>
+    <string name="sign_up">sign_up</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="signup">Sign Up</string>
+    <string name="Log_in">Log_in</string>
+    <string name="email_or_username">Email or Username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    // login, registration, logout
+    <string name="started_title">Hello You!</string>
+    <string name="started_sub_title">
+        Nice to meat you, come join our community!
+        <br><b>Login</b> if you already have an account.</br>
+        <br><b>Register</b>to get started with the app.</br>
+    </string>
+    <string name="illustration_img">Illustration Image</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="login_title">Login to app</string>
+    <string name="login_sub_title">
+        <font color="00C9B8"><b>Login</b></font>
+        if you already have an account.
+    </string>
+    <string name="login_email">Your email or username</string>
+    <string name="login_password">Your password</string>
+    <string name="login_forgot_pw">Forgot Password?</string>
+    <string name="login_havent_account">
+        I don\'t have an account
+        <font color="#00C9B8"><b>Register</b></font>
+    </string>
+    <string name="register_title">Create an account</string>
+    <string name="register_sub_title">
+        <font color="#00C9B8"><b>Register</b></font>
+        to get started with the app.
+    </string>
+
+    <string name="register_fullname">Your full name</string>
+    <string name="register_email">your email</string>
+    <string name="register_username">Your Username</string>
+    <string name="register_confirm_password">confirm password</string>
+
+    <string name="register_have_account">
+        I already have an account
+        <font color="#00C9B8"><b>Login</b></font>
+    </string>
+    <string name="home_title">Hello World!</string>
+    <string name="home_sub_title">Welcome to home</string>
+    <string name="btn_logout">Logout</string>
+    <string name="reset_pw_title">Reset your password</string>
+    <string name="reset_pw_sub_title">
+        <font color="#00C9B8">Reset Password</font>
+        if you forget your password.
+    </string>
+    <string name="btn_reset_pw">Reset Password</string>
+
+    <string name="back_to_login">
+        Back to
+        <font color="#00C9B8"><b>Login</b></font>
+    </string>
+    <string name="your_lastname">Your Lastname</string>
+    <string name="your_firstname">Your Firstname</string>
+</resources>

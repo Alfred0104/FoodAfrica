@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LoginPageUi" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="titleTextColor">@color/ActionBarTitleColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppTheme.Toolbar" parent="">
+        <!--This line change the color of the text in Toolbar -->
+        <item name="android:textColorPrimary">#000000</item>
+        <!--This line change the color of icon in Toolbar(back, overflow menu icon -->
+        <item name="android:textColorSecondary">#504949</item>
+        <!--This line change the color of the title in Toolbar(back, overflow menu icon -->
+        <item name="titleTextColor">@color/ActionBarTitleColor</item>
+    </style>
+</resources>

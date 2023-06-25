@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.afrifood.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_homeFragment_self"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/foodMenuFragment"
+        android:name="com.example.afrifood.foodMenuFragment"
+        android:label="fragment_foodMenu"
+        tools:layout="@layout/fragment_food_menu"/>
+
+    <fragment
+        android:id="@+id/boutiqueFragment"
+        android:name="com.example.afrifood.StoreFragment"
+        android:label="fragment_boutique"
+        tools:layout="@layout/fragment_store"/>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.afrifood.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart"/>
+
+    <fragment
+        android:id="@+id/altroFragment"
+        android:name="com.example.afrifood.AltroFragment"
+        android:label="fragment_altro"
+        tools:layout="@layout/fragment_altro"/>
+
+    <!--fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.loginpageui.favoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite"/-->
+
+
+</navigation>

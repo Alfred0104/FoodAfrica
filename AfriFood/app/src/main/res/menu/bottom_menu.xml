@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/bottom_btn1"
+         />
+
+    <item android:title="Food Menu"
+        android:id="@+id/foodMenuFragment"
+        android:icon="@drawable/bottom_btn2"
+         />
+
+    <item android:title="Boutique"
+        android:id="@+id/boutiqueFragment"
+        android:icon="@drawable/bottom_btn3"
+        />
+
+    <item android:title="Carrello"
+        android:id="@+id/cartFragment"
+        android:icon="@drawable/bottom_btn4"
+         />
+
+    <item
+        android:title="Altro"
+        android:id="@+id/altroFragment"
+        android:icon="@drawable/bottom_btn5"
+         />
+</menu>
